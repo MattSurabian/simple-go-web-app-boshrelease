@@ -1,0 +1,9 @@
+set -eux
+
+cd gopath
+source /var/vcap/packages/golang-1.10-linux/bosh/compile.env
+
+go build -v github.com/cloudfoundry-community/simple-go-web-app
+
+mkdir $BOSH_INSTALL_TARGET/bin
+cp simple-go-web-app $BOSH_INSTALL_TARGET/bin

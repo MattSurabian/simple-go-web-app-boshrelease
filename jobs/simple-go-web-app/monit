@@ -1,0 +1,5 @@
+check process simple-go-web-app
+  with pidfile /var/vcap/sys/run/bpm/simple-go-web-app/simple-go-web-app.pid
+  start program "/var/vcap/jobs/bpm/bin/bpm start simple-go-web-app"
+  stop program "/var/vcap/jobs/bpm/bin/bpm stop simple-go-web-app"
+  group vcap

@@ -1,0 +1,14 @@
+---
+processes:
+- name: simple-go-web-app
+  executable: /var/vcap/packages/simple-go-web-app/bin/simple-go-web-app
+  args: []
+  ephemeral_disk: true
+  persistent_disk: false
+  env:
+    PORT: <%= p("port") %>
+  limits:
+    memory: 1G
+    open_files: 1024
+
+# example at https://github.com/cloudfoundry-incubator/bpm-release/blob/master/jobs/bpm-test-agent/templates/bpm.yml.erb

@@ -1,0 +1,6 @@
+---
+name: simple-go-web-app
+dependencies:
+- golang-1.10-linux
+files:
+- gopath/**/*
