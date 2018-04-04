@@ -35,9 +35,9 @@ update:
 
 releases:
 - name: bpm
-  version: 0.5.0
   url: git+https://github.com/cloudfoundry-incubator/bpm-release
+  version: 0.5.0
 - name: simple-go-web-app
-  version: latest # TODO: update after first final release
-  # url:            TODO: update after first final release
-  # sha1:           TODO: update after first final release
+  sha1: 10db8b2b774f0eb2f76756d863f4f07df3cb3afe
+  url: https://github.com/cloudfoundry-community/simple-go-web-app-boshrelease/releases/download/v1.0.0/simple-go-web-app-1.0.0.tgz
+  version: 1.0.0

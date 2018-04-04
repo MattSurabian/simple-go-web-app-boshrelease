@@ -1,0 +1,25 @@
+name: simple-go-web-app
+version: 1.0.0
+commit_hash: 0e45731
+uncommitted_changes: false
+jobs:
+- name: simple-go-web-app
+  version: 13a984c85042c0326e9fd55f534e049605f13aba
+  fingerprint: 13a984c85042c0326e9fd55f534e049605f13aba
+  sha1: 9d1fa0ead06af65b84e41c2c7fa93311d9164c67
+packages:
+- name: golang-1.10-linux
+  version: 48c842421b6f05acf88dc6ec17f7574dade28a86
+  fingerprint: 48c842421b6f05acf88dc6ec17f7574dade28a86
+  sha1: e9a18aebf2c407ce17423c22c913b6612cf4b75f
+  dependencies: []
+- name: simple-go-web-app
+  version: 0e80c98692626066b43b78f1961feda36b3a9834
+  fingerprint: 0e80c98692626066b43b78f1961feda36b3a9834
+  sha1: b354818a9429ec02ab4a5b2504eebd65dc860b00
+  dependencies:
+  - golang-1.10-linux
+license:
+  version: b26f279e03d973a98acbe79f1efa357e630ef7bd
+  fingerprint: b26f279e03d973a98acbe79f1efa357e630ef7bd
+  sha1: 1c169ce679e28bc07dec23ac198f2f67798d6dc8
