@@ -1,0 +1,6 @@
+---
+- type: replace
+  path: /releases/name=simple-go-web-app
+  value:
+    name: simple-go-web-app
+    version: latest

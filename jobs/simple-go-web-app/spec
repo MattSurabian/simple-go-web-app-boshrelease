@@ -1,0 +1,6 @@
+---
+name: simple-go-web-app
+packages: []
+templates:
+  ignoreme: ignoreme
+properties: {}
